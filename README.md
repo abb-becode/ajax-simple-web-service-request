@@ -1,3 +1,3 @@
 # ajax-simple-web-service-request 
 
-Repository for learning Ajax with Becode
+Repository for learning Ajax
