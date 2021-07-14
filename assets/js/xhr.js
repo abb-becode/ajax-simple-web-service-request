@@ -56,14 +56,14 @@ main = () => {
     //_xmlHttp.onreadystatechange = function() {
     _xmlHttp.onload = function() {
       //alert(_xmlHttp.readyState + " " + _xmlHttp.status);
-      if(_xmlHttp.readyState === 4 && _xmlHttp.status === 200) {
+      if(_xmlHttp.readyState === 4 && _xmlHttp.status === 200) {  // the request succeed
         //alert("if loaded");
-        var xml = JSON.parse(this.responseText);
+        var xml = JSON.parse(this.responseText); 
         updatePage(xml);
         //console.log(xml);
       }
       else {
-        alert ("Something went wrong. Server not respond.");
+        alert ("Something went wrong. Server not respond."); //the request failed
       }
     };
     // send a query : _xmlHttp.open("GET", _url, true);
