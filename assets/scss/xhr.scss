@@ -1,0 +1,82 @@
+
+$teal: teal;
+$white: white;
+$EDF2F7: #EDF2F7;
+$ff: #ffffff;
+$cedeef: #cedeef;
+
+article > p {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.quote-wrapper {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+}
+.quote {
+  display: flex;
+}
+.item {
+  min-width: 100%;
+  min-height: 200px; 
+  background-color: $EDF2F7; 
+  background-color: $white; 
+}
+.item img {
+  margin: 15px auto -60px;
+  width: 120px;
+  height: 120px;
+  border: solid 4px $ff;
+  border-radius: 60px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.card {
+  background-color: $cedeef;
+  padding: 80px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.card p {
+  font-style: italic;
+  line-height: 1.6;
+}
+.card span {
+  display: block;
+  margin-top: 20px;
+  color: $teal;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.quote-wrapper i {
+  text-align: left !important;
+}
+.f6 {
+  font-size: 1.95312rem !important;
+}
+.f5 {
+  font-size: 1.5625rem;
+}
+.mv0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.lh-copy {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+  .item {
+    padding: 0 30px;
+  }
+  .card {
+    padding: 80px 30px 30px;
+  }
+}

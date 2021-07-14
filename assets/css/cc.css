@@ -1,0 +1,59 @@
+/* Variabes */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*vertical-align: top;*/
+/*width: 80px;
+    height: 30px; 
+    display: block;
+    margin: 0 auto;
+    margin-top: -55px !important;
+    margin-bottom: 35px !important;*/
+/*border: #555554 dashed 2px;*/
+#score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  color: blue;
+  height: 17.5vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 65px;
+}
+
+canvas#cookie {
+  width: auto;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+  z-index: 9999999;
+}
+
+#target .label {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 3px;
+  background-color: #d8d4d4;
+  color: white;
+}
+
+.btn:enabled {
+  background-color: #63c3d1;
+}
+/*# sourceMappingURL=cc.css.map */
